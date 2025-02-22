@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StreetView</string>
+    <string name="open_map">Открыть карту</string>
+    <string name="open_street_view">Открыть просмотр улиц</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Toast</string>
+    <string name="show_toast">Показать Toast</string>
+    <string name="feed_cat">Пора покормить кота!</string>
+</resources>

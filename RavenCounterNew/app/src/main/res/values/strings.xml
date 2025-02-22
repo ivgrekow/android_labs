@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RavenCounterNew</string>
+    <string name="count">Считать ворон</string>
+    <string name="ravens">Количество ворон:</string>
+    <string name="reset">Сброс</string>
+</resources>

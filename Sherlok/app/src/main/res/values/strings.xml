@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sherlok</string>
+    <string name="crow">Ворона</string>
+    <string name="dog">Пёс</string>
+    <string name="cat">Кот</string>
+    <string name="make_choice">Сделать выбор</string>
+    <string name="who">Кто украл колбасу?</string>
+    <string name="sherlock">sherlock</string>
+</resources>

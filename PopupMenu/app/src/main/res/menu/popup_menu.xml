@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/red"
+        android:title="@string/red"
+        android:icon="@drawable/ic_launcher_background"
+        android:iconTint="#F44336"
+        android:iconTintMode="src_in"/>
+    <item
+        android:id="@+id/yellow"
+        android:title="@string/yellow"
+        android:icon="@drawable/ic_launcher_background"
+        android:iconTint="#FFEB3B"
+        android:iconTintMode="src_in"/>
+    <item
+        android:id="@+id/green"
+        android:title="@string/green"
+        android:icon="@drawable/ic_launcher_background"
+        android:iconTint="#4CAF50"
+        android:iconTintMode="src_in"/>
+</menu>

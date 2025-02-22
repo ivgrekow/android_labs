@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Orientation</string>
+    <string name="first_button">Первая кнопка</string>
+    <string name="second_button">Вторая кнопка</string>
+    <string name="third_button">Третья кнопка</string>
+    <string name="fourth_button">Четвертая кнопка</string>
+    <string name="fifth_button">Пятая кнопка</string>
+    <string name="sixth_button">Шестая кнопка</string>
+    <string name="input_text">Введите текст</string>
+</resources>

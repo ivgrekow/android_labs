@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android Lesson 5</string>
+    <string name="left_cat">Левый кот</string>
+    <string name="right_cat">Правый кот</string>
+</resources>

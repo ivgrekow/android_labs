@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">TextEditor</string>
+    <string name="writing">Пишите...</string>
+    <string name="open">Открыть</string>
+    <string name="save">Сохранить</string>
+    <string name="action_settings">Настройки</string>
+    <string name="pref_openmode">Режим открытия</string>
+    <string name="pref_color">Цвет</string>
+    <string name="pref_color_black">Черный цвет</string>
+    <string name="pref_color_red">Красный цвет</string>
+    <string name="pref_color_green">Зеленый цвет</string>
+    <string name="pref_color_blue">Синий цвет</string>
+    <string name="pref_size">Размер</string>
+    <string name="pref_style">Стиль</string>
+    <string name="pref_style_regular">Нормальный</string>
+    <string name="pref_style_bold">Полужирный</string>
+    <string name="pref_style_italic">Курсив</string>
+    <string name="open_summary">Открывать файл при запуске приложения</string>
+    <string name="edit_dialog_title">Введите размер шрифта (от 10 до 32)</string>
+    <string name="edit_summary">Устанавливает новый размер шрифта</string>
+    <string name="edit_title">Размер шрифта</string>
+    <string name="text_style_title">Стиль для шрифта</string>
+    <string name="text_style_summary">Устанавливает стиль для шрифта</string>
+    <string name="text_style_dialog_title">Выберите стиль для шрифта</string>
+    <string name="text_color_title">Цвет текста</string>
+    <string name="text_color_summary">Устанавливает новый цвет для текста</string>
+    <string name="text_color_dialog_title">Выберите цвет для текста</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Broadcast</string>
+    <string name="send_message">Отправить сообщение</string>
+    <string name="start_broadcast">Включить приемник</string>
+</resources>

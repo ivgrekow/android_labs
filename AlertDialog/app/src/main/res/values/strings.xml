@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AlertDialog</string>
+    <string name="open_dialog">Открыть диалог</string>
+    <string name="open_dialog_three_buttons">Открыть диалог с тремя кнопками</string>
+    <string name="open_dialog_list">Открыть диалог со списком</string>
+    <string name="open_dialog_list_flags">Открыть диалог со списком флажков</string>
+    <string name="open_dialog_rating">Открыть диалог с рейтингом</string>
+</resources>

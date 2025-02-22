@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Notification</string>
+    <string name="get_notify">Получить уведомление</string>
+    <string name="notify">Напоминание</string>
+    <string name="feed_cat">Пора покормить кота</string>
+    <string name="delete_notification">Удалить уведомление</string>
+    <string name="input_text">Введите текст</string>
+    <string name="notification">Уведомление</string>
+    <string name="create_notification">Создать уведомление</string>
+    <string name="list_notifications">Список уведомлений</string>
+    <string name="clear">Очистить все уведомления</string>
+</resources>

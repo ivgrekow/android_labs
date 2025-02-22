@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <RadioButton
+            android:id="@+id/radio_crow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ворона" />
+
+        <RadioButton
+            android:id="@+id/radio_dog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dog" />
+
+        <RadioButton
+            android:id="@+id/radio_cat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cat" />
+    </RadioGroup>
+</LinearLayout>

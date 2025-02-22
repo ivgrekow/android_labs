@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4C5C5"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/left_top_image"
+        android:layout_width="174dp"
+        android:layout_height="194dp"
+        android:layout_marginTop="-20dp"
+        android:contentDescription="@string/left_cat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/left_top_cat" />
+
+    <ImageView
+        android:id="@+id/right_bottom_image"
+        android:layout_width="154dp"
+        android:layout_height="188dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/right_cat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/right_bottom_cat" />
+
+    <ImageView
+        android:id="@+id/left_bottom_image"
+        android:layout_width="254dp"
+        android:layout_height="332dp"
+        android:contentDescription="@string/left_cat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/left_bottom_cat" />
+
+    <ImageView
+        android:id="@+id/right_top_image"
+        android:layout_width="111dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="-12dp"
+        android:contentDescription="@string/right_cat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/right_top_cat" />
+
+    <TextView
+        android:id="@+id/second_text"
+        android:layout_width="244dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/black"
+        android:text="Уже 6 часов утра, Наташ"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/right_top_image"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toEndOf="@+id/left_top_image"
+        app:layout_constraintTop_toBottomOf="@+id/left_top_image" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <TextView
+        android:id="@+id/first_text"
+        android:layout_width="226dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/black"
+        android:text="Наташ, ты спишь?"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/third_text"
+        android:layout_width="254dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="24dp"
+        android:background="@color/black"
+        android:text="Мы уронили вообще всё, Наташ, честно"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/fourth_text"
+        android:layout_width="204dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/black"
+        android:text="Вставай, мы там всё уронили"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/third_text"
+        app:layout_constraintStart_toStartOf="@+id/guideline" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

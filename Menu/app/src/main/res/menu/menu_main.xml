@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_cat_male"
+            android:title="@string/action_cat_male"
+            android:orderInCategory="100"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/action_cat_female"
+            android:title="@string/action_cat_female"
+            android:orderInCategory="100"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/action_kitten"
+            android:title="@string/action_kitten"
+            android:orderInCategory="100"
+            app:showAsAction="never"/>
+    </group>
+</menu>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Keyboard</string>
+    <string name="input">Введите текст</string>
+    <string name="language">Узнать язык</string>
+</resources>
